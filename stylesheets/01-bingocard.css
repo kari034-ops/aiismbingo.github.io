@@ -1,0 +1,130 @@
+.bingo {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.bingocard {
+  min-width: 550px;
+  max-width: 550px;
+  padding: 50px;
+  background: lavender;
+}
+
+.bingocard-square {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  width: 100px;
+  height: 100px;
+  background: lavenderblush;
+  border-color: black;
+  border: solid 5px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+  cursor: pointer;
+  overflow-wrap: break-word;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.bingocard-square:hover {
+  background: khaki;
+  border-color: goldenrod;
+}
+
+.bingocard-selected {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  width: 100px;
+  height: 100px;
+  background: darkslateblue;
+  border-color: black;
+  border: solid 5px;
+  color: aquamarine;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+  cursor: pointer;
+  overflow-wrap: break-word;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.bingocard-selected:hover {
+  background: blue;
+  border-color: white;
+}
+
+.header-grid {
+  display: grid;
+  grid-template-areas:
+    "a b c";
+  padding-bottom: 10px;
+}
+
+.title {
+  grid-area: b;
+  top: 50px;
+  font:normal 30pt Arial;
+  color:#FFFFFF;
+  text-shadow: 0 1px 0 #ccc,
+  0 2px 0 #c9c9c9,
+  0 3px 0 #bbb,
+  0 4px 0 #b9b9b9,
+  0 5px 0 #aaa,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);
+}
+
+.shuffle {
+  grid-area: a;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: aliceblue;
+  width: 80px;
+  height: 42px;
+  background: cornflowerblue;
+  cursor: pointer;
+  text-align: center;
+  z-index: 5;
+  border-radius: 50px;
+  line-height: 40px;
+}
+
+.shuffle:hover {
+  background: black;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.sliding-background {
+  background: url("../rainbow.jpg") repeat-x;
+  height: 100%;
+  width: 5076px;
+  z-index: -1;
+  position: fixed;
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
