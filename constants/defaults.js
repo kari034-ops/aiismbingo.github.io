@@ -1,0 +1,28 @@
+const BingoDefault = [
+  "mutters / murmurs",
+  "recursive loops",
+  "tapestry / lattice",
+  "grunts / snorts / barks",
+  "intones",
+  "whispers / barely audible / softly",
+  "breathing / living rooms",
+  "strength / determination",
+  "darting eyes",
+  "pulses / flickers",
+  "mind / heart races",
+  "remembered / unforgotten",
+  "seen / heard / listens",
+  "not X, just Y",
+  "rule of 3's",
+  "watching / waiting.",
+  "em-dashes",
+  "echoes / noise",
+  "nonsense similes",
+  "it holds",
+  "ellipses at second to last... word",
+  "Elara and co.",
+  "mechanical / measured / surgical",
+  "{adj} precision",
+];
+
+module.exports = BingoDefault;
