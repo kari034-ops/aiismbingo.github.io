@@ -22160,12 +22160,12 @@
 	  "recursive loops",
 	  "tapestry / lattice",
 	  "grunts / snorts / barks",
-	  "intones",
+	  "intones / echoes",
 	  "whispers / barely audible / softly",
 	  "breathing / living rooms",
 	  "strength / determination",
 	  "darting eyes",
-	  "pulses / flickers",
+	  "pulses / signal",
 	  "mind / heart races",
 	  "remembered / unforgotten",
 	  "seen / heard / listens",
@@ -22180,6 +22180,7 @@
 	  "Elara and co.",
 	  "mechanical / measured / surgical",
 	  "{adj} precision",
+	  "continuity errors",
 	];
 
 	module.exports = BingoDefault;
